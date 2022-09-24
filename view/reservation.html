@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Train E-ticketing</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/style_reservation.css">
+
+</head>
+
+<body>
+    <nav>
+        <label class="heading">Train Ticket Booking</label>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../view/passenger.html">passenger</a></li>
+            <li><a href="../view/TrainStatus.html">Train Status</a></li>
+            <li><a href="../view/ContactUs.html">Contact us</a></li>
+
+        </ul>
+    </nav>
+    <div class="registration">
+        <form>
+            <fieldset class="f"><label id="l"> SEARCH TRAIN FOR RESERVATION</label>
+                <br>
+                <p> DEPARTURE CITY: <select id="#selected" name="departure" required>
+                        <option id="#selected" selected="selected">--SELECT A LOCATION--</option>
+                        <option value="Bangalore">BLR,Bangalore Railway Station</option>
+                        <option value="Chennai">MAA,Chennai Railway Station</option>
+                        <option value="Kolkata">CCU,Kolkata Railway Station</option>
+                        <option value="Mumbai">BOM,Mumbai Railway Station</option>
+                        <option value="Kochi">COK,Kochi Railway Station</option>
+                        <option value="New Delhi">DEL,New Delhi Railway Station</option>
+                        <option value="Ahmedabad">AMD,Ahmedabad Railway Station</option>
+                        <option value="Pune">PNQ,Pune Railway Station</option>
+                        <option value="Chandigarh">IXC,Chandigarh Railway Station</option>
+                        <option value="Rajkot">RJT,Rajkot Railway Station</option>
+                        <option value="Bhopal">BHP,Bhopal Railway Station</option>
+                        <option value="Thiruvananthapuram">TRU,Trivendrum Railway Station</option>
+                        <option value="Mangalore">MGL,Mangalore Railway Station</option>
+                    </select></p>
+                <br>
+                <p> ARRIVAL CITY: <select name="arrival" required>
+                        <option id="#selected" selected="selected">--SELECT A LOCATION--</option>
+                        <option value="Bangalore">BLR,Bangalore Railway Station</option>
+                        <option value="Chennai">MAA,Chennai Railway Station</option>
+                        <option value="Kolkata">CCU,Kolkata Railway Station</option>
+                        <option value="Mumbai">BOM,Mumbai Railway Station</option>
+                        <option value="Kochi">COK,Kochi Railway Station</option>
+                        <option value="New Delhi">DEL,New Delhi Railway Station</option>
+                        <option value="Ahmedabad">AMD,Ahmedabad Railway Station</option>
+                        <option value="Pune">PNQ,Pune Railway Station</option>
+                        <option value="Chandigarh">IXC,Chandigarh Railway Station</option>
+                        <option value="Rajkot">RJT,Rajkot Railway Station</option>
+                        <option value="Bhopal">BHP,Bhopal Railway Station</option>
+                        <option value="Thiruvananthapuram">TRU,Trivendrum Railway Station</option>
+                        <option value="Mangalore">MGL,Mangalore Railway Station</option>
+                    </select>
+                </p>
+                <br>
+
+                <p>DEPARTURE DATE: <input type="date" name='DATE' required></p>
+                <br>
+                <br>
+                <p> <a href="../view/passenger.html"><input type="button" name="submit" id="btn" value="Search train" /></a><a
+                        href="../index.html"><input id="btn" type="button" value="Cancel" /> </a></p>
+
+            </fieldset>
+        </form>
+    </div>
+</body>
+<footer><br>
+    <p>All Rights reserved by <br>Rudraksh Rishabh Yashas<br><br>
+    <a href="../view/ContactUs.html">Contact Us</a></p><br>
+</footer>
+
+</html>

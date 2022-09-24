@@ -1,0 +1,144 @@
+body {
+    background-image: url("../images/railway10.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Montserrat, sans-serif;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: 0;
+    list-style: none;
+    box-sizing: border-box;
+    border-style: none;
+
+}
+
+nav {
+    background-color: #2f496e;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+}
+
+label.heading {
+    font-size: 35px;
+    padding: 0 40px;
+    text-transform: uppercase;
+    color: #f4eade;
+    line-height: 80px;
+    font-weight: 700;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    list-style: none;
+}
+
+a {
+    color: #f4eade;
+    text-decoration: none;
+    padding: 10px 15px;
+    text-transform: uppercase;
+}
+
+nav ul li a:active,
+nav ul li a:hover {
+    background-color: #f4eade;
+    color: #2f496e;
+    transition-duration: 0.5s;
+    border-bottom-width: 5px;
+    border-bottom-color: #2988bc;
+    border-bottom-style: solid;
+    border-right-width: 5px;
+    border-right-color: #2988bc;
+    border-right-style: solid;
+
+}
+
+.registration {
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    clear: both;
+
+}
+
+form {
+    padding: 10px;
+}
+
+.f {
+    border-style: none;
+    background-color: #2f496e7a;
+    padding: 30px 0px;
+    margin: 80px 20%;
+
+}
+
+#l {
+    font-size: 50px;
+    color: #f4eade;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 20px;
+    color: #faf3eb;
+}
+
+span {
+    font-size: 30px;
+    color: rgb(245, 67, 67);
+}
+
+#btn {
+    background-color: #2f496e;
+    color: #f4eade;
+    margin: 5px 10%;
+}
+
+#btn:hover {
+    background-color: #f4eade;
+    color: #2f496e;
+}
+
+#selected {
+    margin-left: 200px;
+}
+
+#btn {
+    padding: 20px;
+}
+
+#btn:hover {
+    padding: 20px;
+}
+footer{
+background-color: #2f496e;
+color: #f4eade;
+text-align: center;
+}
+footer a:hover{
+    background-color: #f4eade;
+    color: #2f496e;
+    transition-duration: 0.5s;
+    border-bottom-width: 5px;
+    border-bottom-color: #2988bc;
+    border-bottom-style: solid;
+    border-right-width: 5px;
+    border-right-color: #2988bc;
+    border-right-style: solid;
+}

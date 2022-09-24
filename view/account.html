@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="shortcut icon" href="../images/g4.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <title>Train Reservation System</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/style_account.css" />
+</head>
+
+<body>
+
+  <nav>
+    <label class="heading">Train Ticket Booking</label>
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../view/passenger.html">passenger</a></li>
+      <li><a href="../view/TrainStatus.html">Train Status</a></li>
+      <li><a href="../view/ContactUs.html">Contact us</a></li>
+
+    </ul>
+  </nav>
+
+  <div class="login-card" id="1">
+    <form>
+
+      <h1>Log-in as <br>User?</h1><br>
+      <span class="error"></span><br>
+      <input type="text" id="username" name="username" placeholder="Username" required>
+      <input type="password" id="password" name="password" placeholder="Password" minlength="4" required>
+      <input type="submit" name="login" class="login login-submit" value="login">
+  
+    </form>
+  </div>
+
+  <div class="login-card">
+    <h1>Don't have an account</h1><br><br>
+    <input  class="signIn " type="button" value="Sign In"
+    onclick="document.location='../view/registration.html'" />  
+  </div>
+
+  <footer><br>
+    <p>All Rights reserved by <br>Rudraksh Rishabh Yashas<br><br>
+    <a href="../view/ContactUs.html">Contact Us</a></p><br>
+</footer>
+</body>
+
+</html>

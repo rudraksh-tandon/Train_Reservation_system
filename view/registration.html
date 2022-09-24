@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Train E-ticketing</title>
+    <link rel="shortcut icon" href="../images/g4.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/style_registration.css">
+    <script type="text/javascript" src="../js/registration_validation.js"></script>
+</head>
+
+<body>
+    <nav>
+        <label class="heading">Train Ticket Booking</label>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../view/passenger.html">passenger</a></li>
+            <li><a href="../view/TrainStatus.html">Train Status</a></li>
+            <li><a href="../view/ContactUs.html">Contact us</a></li>
+
+        </ul>
+    </nav>
+
+    <div class="registration">
+        <div class="f"><h1 id="l"> REGISTRATION</h1> <br>
+            <form action="" onsubmit="formValidation()">
+                <p>First Name: <input id="inp" type="text" placeholder="FIRSTNAME" name="FIRSTNAME" id="fn" required />
+                    <span id="f_error">*</span>
+                </p>
+                <br>
+                <p> Last Name: <input id="inp" type="text" placeholder="LASTNAME" name="LASTNAME" id="ln" required />
+                    <span id="l_error">*</span>
+                </p><br>
+                <p>E-mail ID: <input id="inp" type="email" placeholder="E-mail" name="EMAIL"></p><br>
+                <p>Phone: <input id="inp" type="tel" placeholder="Phone Number" name="CONTACT_NO" id="number"
+                        required />
+                    <span id="phone_error"> *</span>
+                </p><br>
+                <p>Gender: <input type="radio" name="GENDER" value="male"> Male &nbsp; <input type="radio" name="GENDER"
+                        value="female"> Female</p><br>
+                <p>Username: <input type="text" placeholder="username" name="USERNAME" id="uname" required />
+                    <span id="User_error"> *</span>
+                </p><br>
+                <p>Password : <input type="password" placeholder="password" name="PASSWORD" id="password" required />
+                    <span id="pass_errror"> *</span>
+                </p><br>
+                <p>Confirm Password: <input type="password" placeholder="password" id="cpassword" required />
+                    <span id="cnf_error"> *</span>
+                </p><br>
+                <p><input id="btn" type="submit" value="Sign up" /> <input id="btn" type="reset" value="RESET" /></p>
+            </form>
+    
+        </div>
+            <div class="f">
+                <p style="font-size: 20px;">Already have an account</p>
+                <input style="padding-right: 30px; padding-left: 30px;" id="btn" type="button" value="Login"
+                    onclick="document.location='../view/account.html'" />
+            </div>
+    </div>
+</body>
+<footer><br>
+    <p>All Rights reserved by <br>Rudraksh Rishabh Yashas<br><br>
+    <a href="../view/ContactUs.html">Contact Us</a></p><br>
+</footer>
+</html>
